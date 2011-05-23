@@ -19,6 +19,7 @@ public class ReceiveTest {
     private static final String QUEUE_NAME = "choice2.queue";
 
 	public static void main(String[] args) {
+		System.out.println("maim kaishi l ");
 		ReceiveTest rm = new ReceiveTest();
         rm.receiveMessage();
 
