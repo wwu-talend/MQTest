@@ -26,6 +26,8 @@ public class ReceiveTest {
 	
 	
 	 public void receiveMessage(){
+		   System.out.println("begin l ");
+		 
 	        Connection connection = null;
 	        try{
 	            try{
