@@ -19,7 +19,9 @@ public class Send {
 	
 	public static void main(String[] args) {
 		try {
-			new Send().sendMessage();
+			new Send().sendMessage();//this is from test4
+
+			
 		} catch (JMSException e) {
 			e.printStackTrace();
 		}
